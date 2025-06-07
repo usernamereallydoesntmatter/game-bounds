@@ -122,6 +122,7 @@
 						document.getElementsByClassName("pleasewait")[0].style.display = "block";
 
 						const scriptGame = document.createElement("script");
+						scriptGame.setAttribute('type', 'text/javascript');
 						scriptGame.src = "https://cdn.jsdelivr.net/gh/usernamereallydoesntmatter/game-bounds@main/3DPinball/3DPinballSpaceCadet.js";
 						document.getElementsByTagName("body")[0].appendChild(scriptGame);
 						});
